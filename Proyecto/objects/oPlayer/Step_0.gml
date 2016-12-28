@@ -11,7 +11,11 @@ if (Kleft or Kright){
 	}
 }else{
 	if (HSpeed > 0){
-		HSpeed -= HAccel
+		if place_free(x,y+Gravity){
+			HSpeed -= HAirAccel
+		}else{
+			HSpeed -= HAccel
+		}
 	}
 }
 clamp(HSpeed,0,HSpeedMax)
@@ -23,3 +27,37 @@ repeat(HSpeed){
 		HSpeed = 0
 	}
 }
+
+//Salto
+if (Kjump) and (CanJump > 0){
+	CanJump --
+	Gravity = -1
+	VSpeed = VSPeedMax
+}
+
+//Movimiento vertical 
+if (VSpeed > 0) and (Gravity = -1){
+	VSpeed -= VAccel
+}else{
+	Gravity = 1
+}
+
+if (VSpeed < VSPeedMax) and (Gravity = 1){
+	VSpeed += VAccel
+}
+
+
+//Gravedad
+repeat(VSpeed){
+	if place_free(x,y+Gravity){
+		y += Gravity
+	}else{
+		VSpeed = 0
+		if (Gravity = 1){
+			CanJump	= MaxJump
+		}
+	}
+}
+
+
+
