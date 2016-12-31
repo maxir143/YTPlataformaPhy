@@ -455,6 +455,63 @@
                 "resourcePath": "objects\\oWall\\oWall.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "c3da9800-34aa-45b5-85ac-5352144b40d5",
+            "Value": {
+                "id": "803d8a64-ce57-4d73-895a-2d2488073ee0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sIdle\\sIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "28ee2e44-92cf-413f-af8c-6468ab71708a",
+            "Value": {
+                "id": "8b053cf2-8c34-4b5e-be17-3d4a9ef72ea6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sWalk\\sWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9be9ebc5-518c-4826-b01e-28830f3bb118",
+            "Value": {
+                "id": "0129cb14-a4f2-4397-b840-c32d65244ddc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sjump\\sjump.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [

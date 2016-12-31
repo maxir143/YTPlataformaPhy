@@ -58,6 +58,3 @@ repeat(VSpeed){
 		}
 	}
 }
-
-
-
