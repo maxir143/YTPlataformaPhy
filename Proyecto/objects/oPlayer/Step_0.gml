@@ -32,3 +32,20 @@ if place_free(x,y-1){ //Posicion [suelo]
 
 
 
+<<<<<<< HEAD
+=======
+//Gravedad
+repeat(VSpeed){
+	if place_free(x,y+Gravity){
+		y += Gravity
+	}else{
+		VSpeed = 0
+		if (Gravity = 1){
+			CanJump	= MaxJump
+		}
+	}
+}
+
+
+
+>>>>>>> parent of 3018da8... commit 3
