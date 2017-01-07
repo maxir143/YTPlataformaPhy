@@ -1,16 +1,9 @@
-HSpeed		= 0	
-VSpeed		= 0	
+//movimiento vertical
 
-HSpeedMax	= 7
-VSPeedMax	= 20
+VInput		= 0
+VSpeedDef	= 0
+VSpeedMax   = 10
+VSpeed		= 0
+VAccel		= 1
+VFric		= 1
 
-HAccel		= 2
-HAirAccel	= 1
-VAccel		= 2
-
-HLastKey	= 0
-Gravity		= 1
-
-
-MaxJump		= 2
-CanJump		= MaxJump
