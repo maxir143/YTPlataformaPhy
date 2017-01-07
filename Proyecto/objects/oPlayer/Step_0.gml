@@ -46,12 +46,6 @@ if (VSpeed < VSPeedMax) and (Gravity = 1){
 	VSpeed += VAccel
 }
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 71aa1da... test
 //Gravedad
 repeat(VSpeed){
 	if place_free(x,y+Gravity){
@@ -63,10 +57,3 @@ repeat(VSpeed){
 		}
 	}
 }
-<<<<<<< HEAD
-
-
-
->>>>>>> parent of 3018da8... commit 3
-=======
->>>>>>> parent of 71aa1da... test
